@@ -73,16 +73,7 @@ WSGI_APPLICATION = 'elevate.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "deploy",
-        "USER": "avnadmin",
-        "PASSWORD": "AVNS_MuzLqNmGe4b4KEIHaJo",
-        "HOST": "mysql-2f27a1bc-anhnguyen2k373-3703.f.aivencloud.com",
-        "PORT": "10848",
-    }
-}
+
 
 
 # Password validation
